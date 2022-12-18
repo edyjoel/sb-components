@@ -19,7 +19,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=b7addf7fdeb6"
   },
   "eslintConfig": {
     "extends": [
@@ -49,6 +50,9 @@
     "@storybook/manager-webpack4": "^6.5.14",
     "@storybook/react": "^6.5.14",
     "@storybook/testing-library": "^0.0.13",
-    "babel-loader": "^8.3.0"
-  }
+    "babel-loader": "^8.3.0",
+    "chromatic": "^6.13.1"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "my-storybook@0.1.0"
 }
